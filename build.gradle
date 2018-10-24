@@ -8,7 +8,7 @@ apply plugin: 'java'
 
 group = 'se.kits'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = 1.8
+sourceCompatibility = 10
 
 repositories {
     mavenCentral()
@@ -18,4 +18,5 @@ repositories {
 dependencies {
     implementation('io.rsocket:rsocket-core:0.11.5')
     implementation('io.rsocket:rsocket-transport-netty:0.11.5')
+    implementation('ch.qos.logback:logback-classic:0.9.26')
 }
